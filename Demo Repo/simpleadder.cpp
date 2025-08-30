@@ -1,13 +1,17 @@
 #include <iostream> 
 
+double doublenumber(int num)
+{
+    return num * 2;
+}
+
+
 int main()
 {
-    double x {};
-    double y {};
-    std::cout << "Enter a number: ";
+    int x {};
+    std::cout << "What Number would you like to double: ";
     std::cin >> x;
-    std::cout << "Enter another number: ";
-    std::cin >> y;
-    std::cout << x << '+' << y << " is " << x + y << std::endl;
-    std::cout << x << '-' << y << " is " << x - y << '\n';
+    x = doublenumber(x);
+    std::cout << "Number Doubled is: " << x;
+    return 0;
 }
