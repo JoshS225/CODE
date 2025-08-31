@@ -8,10 +8,6 @@ enum point_type
   BLOCK  
 };
 
-int board[COLS][ROWS] 
-
-
-
 void drawboard(int board[COLS][ROWS])
 {
     for(int i {}; i < COLS; i++) 
